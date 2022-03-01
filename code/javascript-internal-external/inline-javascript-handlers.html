@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Internal JavaScript example</title>
+    <script>
+      function createParagraph() {
+        const para = document.createElement("p");
+        para.textContent = "You clicked the button!";
+        document.body.appendChild(para);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="createParagraph()">Click me!</button>
+  </body>
+</html>
